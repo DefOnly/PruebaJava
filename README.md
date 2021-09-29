@@ -9,4 +9,4 @@
 
 3. Para el deploy, en caso de que no compile hacer un Update Project de MAVEN
 
-NOTA: Lamentablemente tuve que obviar otro código que hice con SPRING MCV ya que tuve un inconveniente; el código enviado está con los otros requerimientos.
+NOTA: Lamentablemente tuve que obviar otro código que hice con SPRING MVC ya que tuve un inconveniente; el código enviado está con los otros requerimientos.
