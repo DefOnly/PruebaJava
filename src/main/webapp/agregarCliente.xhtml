@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+<meta charset="utf-8" name="viewport"
+		content="width=device-width, initial-scale=1"
+		http-equiv="X-UA-Conpatible" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+<title>Prueba Java</title>
+</h:head>
+<h:body>
+	<h1>
+		<h:outputText value="Agregar Cliente"></h:outputText>
+	</h1>
+	
+		<h:form>
+			
+			<h:outputText value="Rut"></h:outputText>
+			<h:inputText value="#{cliente.rut}"></h:inputText>
+
+			<h:outputText value="Nombre"></h:outputText>
+			<h:inputText value="#{cliente.nombre}"></h:inputText>
+
+			<h:outputText value="Apellido"></h:outputText>
+			<h:inputText value="#{cliente.apellido}"></h:inputText>
+
+			<h:outputText value="Direccion"></h:outputText>
+			<h:inputText value="#{cliente.direccion}"></h:inputText>
+
+			<h:outputText value="Comuna"></h:outputText>
+			<h:inputText value="#{cliente.comuna}"></h:inputText>
+			
+			<h:outputText value="Email"></h:outputText>
+			<h:inputText value="#{cliente.email}"></h:inputText>
+
+				<h:commandButton action="#{clienteBean.guardar()}"
+					value="Agregar"></h:commandButton>
+	</h:form>
+		
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</h:body>
+</html>
