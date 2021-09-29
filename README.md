@@ -5,7 +5,7 @@
 <property name="javax.persistence.jdbc.user" value="root" />
 <property name="javax.persistence.jdbc.password" value="def1992" />
 
-2. CARPETA "DATABASE" donde se encuentra el script de las querys hechas.
+2. CARPETA "DATABASE" donde se encuentra el script de las querys realizadas.
 
 3. Para el deploy, en caso de que no compile hacer un Update Project de MAVEN
 
