@@ -1,6 +1,6 @@
 # PruebaJava
 
-1. En el folder META-INF y file "persistence.xml" se deben cambiar los siguiente parámetros de conexión de acuerdo al motor de base de datos que se vaya a usar:
+1. En el folder META-INF y file "persistence.xml" se deben cambiar los siguientes parámetros de conexión de acuerdo al motor de base de datos que se vaya a usar:
 
 <property name="javax.persistence.jdbc.user" value="root" />
 <property name="javax.persistence.jdbc.password" value="def1992" />
