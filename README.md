@@ -7,6 +7,6 @@
 
 2. CARPETA "DATABASE" donde se encuentra el script de las querys realizadas.
 
-3. Para el deploy, en caso de que no compile hacer un Update Project de MAVEN
+3. Para el deploy, en caso de que no compile hacer un Update Project de MAVEN.
 
 NOTA: Lamentablemente tuve que obviar otro código que hice con SPRING MVC ya que tuve un inconveniente; el código enviado está con los otros requerimientos.
